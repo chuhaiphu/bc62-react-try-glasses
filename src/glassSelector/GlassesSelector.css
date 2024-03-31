@@ -1,0 +1,102 @@
+.header {
+    word-spacing: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.model-face-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+}
+
+.model-faces {
+    margin: auto;
+    width: 80%;
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+
+.model {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.selected-glass img {
+    position: absolute;
+    width: 23%;
+    left: 38.5%;
+    top: 24%;
+    opacity: 0.7;
+}
+
+.image-container {
+    width: 40%;
+    position: relative;
+}
+
+.image-container img {
+    max-width: 100%;
+    display: block;
+}
+
+.glass-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+}
+
+.glass-details .glass-name {
+    text-transform: uppercase;
+    font-size: small;
+    color: aqua;
+    padding-left: 10px;
+}
+
+.glass-details .glass-description {
+    font-size: small;
+    color: white;
+    padding-left: 10px;
+}
+
+.glasses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    gap: 30px;
+    padding: 30px;
+}
+
+.list-glasses {
+    margin: auto;
+    width: 70%;
+    background-color: white;
+}
+
+.glasses-item {
+    height: 60px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.glasses-item img {
+    width: 80%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.glasses-item:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
