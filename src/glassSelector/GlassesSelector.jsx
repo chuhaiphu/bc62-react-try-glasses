@@ -37,7 +37,7 @@ export default class GlassesSelector extends Component {
         return (
             <div>
                 <header className="header">
-                    <h1>THE GLASS SELECTOR APP</h1>
+                    <h1>THE GLASSES SELECTOR APP</h1>
                 </header>
                 <div style={backgroundStyle}>
                     <div className="model-faces">
