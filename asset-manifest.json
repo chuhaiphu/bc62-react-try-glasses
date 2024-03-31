@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tryGlassesPlatform/static/css/main.eb601bab.css",
+    "main.js": "/tryGlassesPlatform/static/js/main.3284fb9c.js",
+    "static/js/453.05cbe401.chunk.js": "/tryGlassesPlatform/static/js/453.05cbe401.chunk.js",
+    "index.html": "/tryGlassesPlatform/index.html",
+    "main.eb601bab.css.map": "/tryGlassesPlatform/static/css/main.eb601bab.css.map",
+    "main.3284fb9c.js.map": "/tryGlassesPlatform/static/js/main.3284fb9c.js.map",
+    "453.05cbe401.chunk.js.map": "/tryGlassesPlatform/static/js/453.05cbe401.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb601bab.css",
+    "static/js/main.3284fb9c.js"
+  ]
+}
